@@ -1,0 +1,65 @@
+.navMenu{
+    background-color: gray;
+    height: 0vh;
+
+}
+
+.navMenu::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.navMenu ul {
+    list-style: none;
+    text-align: left;
+    display: flex;
+
+}
+
+.navMenu ul li a:hover{
+    font-weight: bold;
+    font-size: 18px;
+    color: blue;
+}
+
+#inicio{
+    height: 70vh;
+    background-color:greenyellow;
+    border: 1px solid yellow;
+
+
+}
+
+#cursos {
+    height:90vh;
+    background-color: hotpink;
+    border: 1px solid yellow;
+
+}
+
+#contatos{
+    height:60vh;
+    background-color: orange;
+    border: 1px solid yellow;
+
+}
+
+#parceiros{
+    height: 40vh;
+    background-color: thistle;
+    border: 1px solid yellow;
+
+}
+
+#missao{
+    height: 90vh;
+    background-color: teal;
+    border: 1px solid yellow;
+}
+  
+#sobre{
+    height: 20vh;
+    background-color: violet;
+    border: 1px solid palegreen;
+}
