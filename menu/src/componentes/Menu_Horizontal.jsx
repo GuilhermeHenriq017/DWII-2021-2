@@ -16,6 +16,7 @@ export default function Menu() {
 
                     </ul>
                 </nav>
+            </div>    
 
                 <section id="inicio">
                     <h1>Início</h1>
@@ -40,7 +41,23 @@ export default function Menu() {
                 <section id="sobre">
                     <h1>Sobre</h1>
                 </section>
-            </div>
+
+                <a class = "irTopo" href=".menu">Topo</a>
+
+                <a className = "irTopo" href="#inicio">Nosso Canal</a>
+                <a className = "irTopo" href="#cursos">Cursos</a>
+                <a className = "irTopo" href="#contatos">Contatos</a>
+                <a className = "irTopo" href="#parceiros">Parceiros</a>
+                <a className = "irTopo" href="#missao">Missão</a>
+                <a className = "irTopo" href="#sobre">Sobre</a>
+
+        <footer>
+            <h2>Rodapé</h2>
+
+        </footer> 
+            
+
+
         </div>
     )
 }
